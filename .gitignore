@@ -3,15 +3,12 @@ cypress/videos
 cypress/screenshots
 
 # Dist
-build
 dist
 lib
 lib-next
 
 # Dependencies
 /node_modules
-
-/build
 
 # Generated files
 .docusaurus
