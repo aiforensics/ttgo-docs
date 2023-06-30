@@ -11,8 +11,7 @@ sidebar_position: 1
 ## CSV
 
 You can get a CSV by interacting with the map, or directly by querying our APIs.
-A description of our API interactions is at the [API version 1 post](/dcsd).
-
+A description of our API interactions is at the [API version 1 post](/blog/api-version-1).
 
 ## Database access
 
@@ -20,7 +19,6 @@ A description of our API interactions is at the [API version 1 post](/dcsd).
 2. You need to accept our DATA LICENSE
 3. Likely you might need a mongodb client like [Mongo Compass](https://www.mongodb.com/products/compass).
 4. At that point read the [Database format](/docs/database-format) document.
-
 
 ## How much data we have so far?
 
