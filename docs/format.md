@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+slug: 'database-format'
 ---
 
 # Database Format
@@ -65,6 +66,8 @@ This collection records the presence of a specific video, identified by `videoId
   "views": 148500
 }
 ```
+
+### Fields description
 
 | Field Name | Description | Type | Public field | From | 
 | --- | --- | --- | --- | --- | 

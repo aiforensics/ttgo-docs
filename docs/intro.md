@@ -6,45 +6,29 @@ sidebar_position: 1
 
 `TikTokGo` dataset is accessible in two ways:
 * by downloading the CSV
-* by accessing to the database (ask for access in our Slack channel)
+* by accessing to the database
 
 ## CSV
 
-The API requests 
-Get started by **creating a new site**.
+You can get a CSV by interacting with the map, or directly by querying our APIs.
+A description of our API interactions is at the [API version 1 post](/dcsd).
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
+## Database access
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+1. You need to have a login and password, and this is given to research institutes or other investigators that might fit in our criteria
+2. You need to accept our DATA LICENSE
+3. Likely you might need a mongodb client like [Mongo Compass](https://www.mongodb.com/products/compass).
+4. At that point read the [Database format](/docs/database-format) document.
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
+## How much data we have so far?
 
-The classic template will automatically be added to your project after you run the command:
+We collect daily with these metrics:
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+* 185 countries + 52 US states (237)
+* for 2 times per day
+* each access fetch an average of 7 recommended videos.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Multiply these factor and this configuration give us an average of 3318 entries per day.
+The collection begun in November 2022, and despite some small interruption, or parameters trimming, the collection have been stable.
