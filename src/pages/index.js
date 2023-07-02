@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://ttgo.trex.zone">
-            Go back to the map️
+            Visit TikTokGO
           </Link>
         </div>
       </div>
