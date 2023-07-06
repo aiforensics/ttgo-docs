@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TikTok Global Observatory',
+  title: 'TikTok Global Observatory (Documentation)',
   tagline: 'A worldwide map of TikTok recommended content',
   favicon: 'img/favicon.ico',
 
