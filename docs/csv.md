@@ -1,7 +1,7 @@
 ---
 slug: api-version-1
-title: V1 (frontend API)
-tags: [API, alpha]
+title: V1 (CSV and API)
+sidebar_position: 2
 ---
 
 The `alpha` version of `ttgo` has three APIs; In this article the parameters and the data format is detailed.

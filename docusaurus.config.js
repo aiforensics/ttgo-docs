@@ -91,7 +91,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
+        links: [ /*
           {
             title: 'Something can go here',
             items: [
@@ -100,7 +100,7 @@ const config = {
                 to: '/docs/intro',
               },
             ],
-          },
+          }, */
           {
             title: 'Community',
             items: [
@@ -118,8 +118,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Our organization',
+                href: 'https://aiforensics.org',
               },
               {
                 label: 'GitHub',
