@@ -1,11 +1,6 @@
 ---
 slug: api-version-1
 title: V1 (frontend API)
-authors:
-  name: bloh
-  title: Blah?
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
 tags: [API, alpha]
 ---
 
@@ -49,6 +44,7 @@ Returns a list of all the videos that appeared in more than one country, in the 
 
 As you can note, the same video is duplicated. it is present for every country.
 
+<!-- 
 ## topByCountry
 
 Returns a list, with the same number of videos for each country, the most present video recommended in the selected time window.
@@ -65,6 +61,8 @@ Returns a list, with the same number of videos for each country, the most presen
 ### CSV format for `/topByCountry`
 
 _Note: there is a small bug, seems the country code/name is not present: I'm checking it next week_
+
+-->
 
 ## raw data by Country
 

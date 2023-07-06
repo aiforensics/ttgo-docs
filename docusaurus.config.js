@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'Slack',
-                href: 'https://ASPETTANDOSLACK.io',
+                href: 'https://join.slack.com/t/tiktokglobalo-6lp2040/shared_invite/zt-1yzdd5574-e9Ir8tLdY2TKUIZTTMFT9g',
               },
               {
                 label: 'Twitter',
