@@ -4,16 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'What it is?',
+    title: 'What is it?',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        TikTokGO is an Open Archive of what TikTok has pushed in the `For You` feed of its unlogged users.
+        TikTok Global Observatory (TikTokGO) is an Open Archive of what TikTok has pushed in the `For You` feed of its unlogged users.
       </>
     ),
   },
   {
-    title: "What's Special about it?",
+    title: "What is special about it?",
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -22,12 +22,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'How to use is?',
+    title: 'How to use it?',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        You start by looking at the map, then at our presentations, then you can download the data and start your own analysis.
-        If you want more, reach out to us and we'll manage to give you access to the database.
+        You start by looking at the most recommended videos globally, then can click through countries, adjust timelines, and download the data to start your own analysis.
+        If you want more, reach out to us and we will provide you with access to the database.
       </>
     ),
   },
