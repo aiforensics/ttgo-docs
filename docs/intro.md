@@ -4,13 +4,13 @@ sidebar_position: 1
 
 # Intro
 
-`TikTokGo` dataset is accessible in two ways:
+The `TikTokGo` dataset is accessible in two ways:
 * by downloading the CSV
-* by accessing to the database
+* by accessing the database
 
 ## CSV
 
-* You can get a CSV by interacting with the map, or directly by querying our APIs.
+* You can get a CSV by interacting with the map or directly by querying our APIs.
 * A description of our API interactions is at the [API version 1 post](/docs/api-version-1).
 
 ## Database access
@@ -20,24 +20,24 @@ sidebar_position: 1
 3. Likely you might need a mongodb client like [Mongo Compass](https://www.mongodb.com/products/compass).
 4. At that point read the [Database format](/docs/database-format) document.
 
-## How much data we have so far?
+## How much data do we have so far?
 
 We collect daily with these metrics:
 
 * 185 countries + 52 US states (237)
 * for 4 times per day
-* each access fetch an average of 7 recommended videos.
+* each access fetches an average of 7 recommended videos.
 
-Multiply these factor and this configuration give us an average of **6636 entries per day**.
-The collection begun in November 2022, and despite some small interruption, or parameters trimming, the collection have been stable.
+Multiply these factors and this configuration gives us an average of **6636 entries per day**.
+The collection began in November 2022, and despite some small interruptions and parameters trimming, the collection has been stable.
 
-We should display a timeline of the collected amount, please consider:
+Please consider:
 
-* We start to collect US as single states only May onwards, before was just one US access
+* We started to collect US as single states only from May 2023 onwards. Before, it was just one US access.
 * Because now there is much more data from the US, this might affect some computation, and we are still fixing this **ALPHA public release**.
 
 ## Other important contextual information
 
-* The URL is experimental too, ad it would change soon.
+* The URL is experimental too, and it will change soon.
 
 ![a funny trimming of the tiktok logo with written that we love it, even if there is a slight irony on it](./tiktok-love.jpeg)
