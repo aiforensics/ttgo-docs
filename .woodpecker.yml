@@ -11,4 +11,3 @@ pipeline:
 
 branches: 
   - main
-  - cicd
