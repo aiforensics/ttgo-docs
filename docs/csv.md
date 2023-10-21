@@ -12,7 +12,7 @@ The `alpha` version of `ttgo` has three APIs; In this article the parameters and
 
 Returns a list of all the videos that appeared in more than one country, in the selected time window.
 
-* url: `https://ttgo.trex.zone/foryourecommendations/global`
+* url: `https://tkgo.aiforensics.org/foryourecommendations/global`
 * parameters:
   * `start`: date to begin the window of time considered, format `YYYY-MM-DD` (default, _15 days ago_)
   * `end`: date to end the window of time considered, format `YYYY-MM-DD` (default, _today_)
@@ -49,7 +49,7 @@ As you can note, the same video is duplicated. it is present for every country.
 
 Returns a list, with the same number of videos for each country, the most present video recommended in the selected time window.
 
-* url: `https://ttgo.trex.zone/foryourecommendations/topByCountry`
+* url: `https://tkgo.aiforensics.org/foryourecommendations/topByCountry`
 * parameters:
   * `start`: date to begin the window of time considered, format `YYYY-MM-DD` (default, _15 days ago_)
   * `end`: date to end the window of time considered, format `YYYY-MM-DD` (default, _today_)
@@ -66,7 +66,7 @@ _Note: there is a small bug, seems the country code/name is not present: I'm che
 
 ## raw data by Country
 
-* url: `https://ttgo.trex.zone/foryourecommendations/country/$THREE_LETTER_COUNTRY_CODE`
+* url: `https://tkgo.aiforensics.org/foryourecommendations/country/$THREE_LETTER_COUNTRY_CODE`
 * about  the url country code, this is the standard we follow: [ISO_3166-1 alpha-3](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 * _examples_: `ARG` is Argentina, `PAK` is Pakistan
 * parameters:

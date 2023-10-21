@@ -15,8 +15,8 @@ The `TikTokGo` dataset is accessible in two ways:
 
 ## Database access
 
-1. You need to have a login and password, and this is given to research institutes or other investigators that might fit in our criteria
-2. You need to accept our DATA LICENSE
+1. You need to request access via this [form](https://view.forms.app/aiforensics/tkgo-data-request).
+2. You'll have to accept our DATA LICENSE, which grant unlimited access to the database.
 3. Likely you might need a mongodb client like [Mongo Compass](https://www.mongodb.com/products/compass).
 4. At that point read the [Database format](database-format) document.
 
@@ -34,10 +34,10 @@ The collection began in November 2022, and despite some small interruptions and 
 Please consider:
 
 * We started to collect US as single states only from May 2023 onwards. Before, it was just one US access.
-* Because now there is much more data from the US, this might affect some computation, and we are still fixing this **ALPHA public release**.
+* Because now there is much more data from the US, this might affect some computation, and we are still fixing this **preliminary public release**.
 
 ## Other important contextual information
 
-* The URL is experimental too, and it will change soon.
+* The data returned in the visualization and in the CSV is not complete: **all the content produced by people with less than 500k followers is omitted**. Only the Database Access can give you visibility over the full dataset.
 
 ![a funny trimming of the tiktok logo with written that we love it, even if there is a slight irony on it](./tiktok-love.jpeg)
