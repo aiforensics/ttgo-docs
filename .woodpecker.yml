@@ -1,7 +1,7 @@
 when:
-  event: push
-  branch:
-    - master
+  - event: push
+    branch:
+      - master
 
 steps:
   build:
